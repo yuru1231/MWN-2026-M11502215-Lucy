@@ -59,8 +59,8 @@ have an LLM review it, and commit the feedback.
 - Submissions:
   - [ ] [Study Note](A1-background/study-note.md) — [five-minute presentation](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/5_min_presentation.md), [how to read a paper](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/How_to%20_Read_a_Paper.md), [project proposal](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/Proposal.md)
   - [ ] [Slides](A1-background/slides/)
-  - [ ] [Slides on pcloud]([A1-background/slides/](https://u.pcloud.link/publink/show?code=XZBSyLJZfqibhzNpDdLle1H7jhILXbmQdprX))
-  - [ ] [Rehearsal Presentation]([A1-background/rehearsal-feedback.md](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/rehearsal-feedback.md)) — Speaker Coach recording and the LLM review
+  - [ ] [Slides on pCloud](https://u.pcloud.link/publink/show?code=XZBSyLJZfqibhzNpDdLle1H7jhILXbmQdprX)
+  - [ ] [Rehearsal Presentation](A1-background/rehearsal-feedback.md) — Speaker Coach recording and the LLM review
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
 ### A2 — ns-3 Setup & First Scenario
