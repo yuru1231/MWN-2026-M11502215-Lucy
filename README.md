@@ -2,6 +2,7 @@
 
 
 
+- [Multimedia Wireless Networks (ET5907701)](#multimedia-wireless-networks-et5907701)
   - [Introduction](#introduction)
   - [1. Profile](#1-profile)
   - [2. Assignments](#2-assignments)
@@ -30,10 +31,11 @@
 
 1. Name: Lucy
 2. Student ID: M11502215
-3. Department: TBD
+3. Department: ECE
 4. Student status: NTUST Student
-5. Path: TBD
-6. Topic: TBD
+5. Path: [MWN_Lucy](https://github.com/yuru1231/MWN-2026-M11502215-Lucy.git)
+6. Topic: Impact of Traffic Demand on LEO NTN Performance Using SNS-3
+
 
 ## 2. Assignments
 
@@ -53,11 +55,12 @@ have an LLM review it, and commit the feedback.
 
 ### A1 — Background Study Notes
 
-- [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a1--background-study-notes)
+- [Assignment Information](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/tree/91e280fb4896bea96639277c9d632a5f01f77626/A1-background)
 - Submissions:
-  - [ ] [Study Note](A1-background/study-note.md) — five-minute presentation, how to read a paper, and your project proposal
+  - [ ] [Study Note](A1-background/study-note.md) — [five-minute presentation](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/5_min_presentation.md), [how to read a paper](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/How_to%20_Read_a_Paper.md), [project proposal](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/Proposal.md)
   - [ ] [Slides](A1-background/slides/)
-  - [ ] [Rehearsal Presentation](A1-background/rehearsal-feedback.md) — Speaker Coach recording and the LLM review
+  - [ ] [Slides on pcloud]([A1-background/slides/](https://u.pcloud.link/publink/show?code=XZBSyLJZfqibhzNpDdLle1H7jhILXbmQdprX))
+  - [ ] [Rehearsal Presentation]([A1-background/rehearsal-feedback.md](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/91e280fb4896bea96639277c9d632a5f01f77626/A1-background/rehearsal-feedback.md)) — Speaker Coach recording and the LLM review
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
 ### A2 — ns-3 Setup & First Scenario
