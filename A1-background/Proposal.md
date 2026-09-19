@@ -106,7 +106,7 @@ Let $\lambda_i$ be the average packet arrival rate of UT $i$, in packets/s; let 
 
 For an observation interval of length $\Delta t$, this study adopts:
 
-$$N_i(\Delta t) \sim \operatorname{Poisson}(\lambda_i \Delta t)$$
+$$N_i(\Delta t) \sim \text{Poisson}(\lambda_i \Delta t)$$
 
 The average Offered Traffic Rate of a UT is defined as:
 
