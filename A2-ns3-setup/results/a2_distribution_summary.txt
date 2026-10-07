@@ -1,6 +1,0 @@
-A2 3GPP HTTP distribution summary
-Downlink packets: 645
-Packet size mean bytes: 509.935
-Packet size median bytes: 536.000
-Inter-arrival mean ms: 341.574232
-Inter-arrival median ms: 0.472000

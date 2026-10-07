@@ -1,8 +1,0 @@
-ns-3 A2 3GPP HTTP run
-RngSeed: 20261013
-RngRun: 7
-Topology: 2 nodes, point-to-point, 10Mbps, 10ms
-Simulation stop time: 221.063 s
-Received downlink application bytes: 328908
-Received downlink packets traced by HTTP client: 645
-Average downlink application throughput: 0.0119569 Mbps
