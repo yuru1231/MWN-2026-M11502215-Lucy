@@ -1,0 +1,6 @@
+parameter,value
+fps,60
+bit_rate_mbps,30
+eye_buffers,2
+jitter_std_ms,5
+jitter_bound_ms,8

@@ -1,0 +1,10 @@
+ns-3 A2 3GPP TS 26.926 XR video traffic run
+RngSeed: 20261013, RngRun: 1
+Topology: 2 nodes, point-to-point, 100Mbps, 5ms
+Model: 2 eye buffer(s), 60 fps, 30 Mbps, mean frame size 31250 bytes
+Jitter: truncated Gaussian, STD 5 ms, range +/-8 ms
+Frames generated: 7200
+Packets sent / received: 157827 / 157827
+UDP payload bytes sent / received: 227104989 / 227104989
+Average UDP-payload throughput: 30.2807 Mbps
+Average one-way packet delay: 6.62052 ms
