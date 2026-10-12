@@ -24,8 +24,8 @@
    └── final-project/           report.md, src/, results/, rehearsal-feedback.md
    ```
 
-5. Commit **every week**. The history is part of the grade — a single upload on the deadline is
-   not acceptable.
+> Commit **every week**. The history is part of the grade — a single upload on the deadline is
+> not acceptable.
 
 ## 1. Profile
 
@@ -48,7 +48,7 @@ have an LLM review it, and commit the feedback.
 | Assignment | Due & presented | Time |
 | :--------- | :-------------- | :--- |
 | [A1](#a1--background-study-notes) | Week 4 · 9/29 | 5 min |
-| [A2](#a2--ns-3-setup--first-scenario) | Week 7 · 10/20 | 10 min |
+| [A2](#a2--ns-3-setup--first-scenario) | Week 7 · 10/13 | 10 min |
 | [A3](#a3--literature-review) | Week 11 · 11/17 | 10 min |
 | [A4](#a4--baseline-reproduction) | Week 13 · 12/1 | 15 min |
 | [Final Project](#final-project--your-modification) | Week 15 *(basic)* / Week 16 *(advanced)* | 20 min |
@@ -67,10 +67,10 @@ have an LLM review it, and commit the feedback.
 
 - [Assignment Information](https://github.com/bmw-ece-ntust/multimedia-wireless-network?tab=readme-ov-file#a2--ns-3-setup--first-scenario)
 - Submissions:
-  - [ ] [Study Note](A2-ns3-setup/study-note.md) — ns-3 version, platform, install steps, what broke
-  - [ ] [Source code + run command](A2-ns3-setup/src/) for your simple scenario
-  - [ ] [Result from your own run](A2-ns3-setup/results/) — numbers, trace, or a Wireshark capture
-  - [ ] [Rehearsal Presentation](A2-ns3-setup/rehearsal-feedback.md)
+  - [x] [Study Note](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/main/A2-ns3-setup/study-note.md) — ns-3 version, platform, install steps, what broke, 3GPP TS 26.926 XR traffic model
+  - [x] [Source code + run command](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/main/A2-ns3-setup/src) — TS 26.926 dual-eye-buffer XR video source (`a2_xr_traffic.cc`) + PDF/CDF verification script
+  - [x] [Result from your own run](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/main/A2-ns3-setup/results) — throughput/delay, CSV traces, PCAP + Wireshark screenshots, frame size / jitter / inter-arrival PDF/CDF with KS test
+  - [x] [Rehearsal Presentation](https://github.com/yuru1231/MWN-2026-M11502215-Lucy/blob/main/A2-ns3-setup/rehearsal-feedback.md) — Speaker Coach report (9:57, 118 wpm) and analysis with action items
   - [ ] [Peer Review](https://forms.gle/eGE2JJgjXpCXwqfq7)
 
 ### A3 — Literature Review
