@@ -1,0 +1,25 @@
+<section id="patterns">
+<p class="kicker">PAPER TABLE I · N^RA = 56</p>
+<h2>Three RO patterns with the same capacity</h2>
+<div style="display:flex; flex-direction:column; gap:28px">
+<div class="prow">
+<div class="plabel"><p class="pname" style="color:var(--p-ii)">(ii)</p><p class="pparm">R=112 · J=6 · T=60</p></div>
+<div class="track"><div class="slot s-ii" style="left:0px; width:60px"></div><div class="slot s-ii" style="left:600px; width:60px"></div></div>
+</div>
+<div class="prow">
+<div class="plabel"><p class="pname" style="color:#128a5f">(iii)</p><p class="pparm">R=224 · J=1 · C=3 · T=60</p></div>
+<div class="track"><div class="slot s-iii" style="left:0px; width:10px"></div><div class="slot s-iii" style="left:20px; width:10px"></div><div class="slot s-iii" style="left:40px; width:10px"></div><div class="slot s-iii" style="left:600px; width:10px"></div><div class="slot s-iii" style="left:620px; width:10px"></div><div class="slot s-iii" style="left:640px; width:10px"></div></div>
+</div>
+<div class="prow">
+<div class="plabel"><p class="pname" style="color:#c94f1e">(iv)</p><p class="pparm">R=448 · J=1 · C=3 · T=120</p></div>
+<div class="track"><div class="slot s-iv" style="left:0px; width:10px"></div><div class="slot s-iv" style="left:40px; width:10px"></div><div class="slot s-iv" style="left:620px; width:10px"></div><div class="slot s-iv" style="left:1200px; width:10px"></div></div>
+</div>
+<div class="prow">
+<div class="plabel"></div>
+<div class="axis"><p class="tick" style="left:0px">slot 1</p><p class="tick" style="left:600px">61</p><p class="tick" style="left:1200px">121</p></div>
+</div>
+</div>
+<p class="body" style="width:1500px">Each bar is one RA slot. Fewer slots get more channels: R·J·C / T = 11.2 for all three. (iv)'s offsets {0, 4, 62} are read from Fig. 5(d).</p>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~1.5 min) These are the three patterns in Fig. 4, drawn over the first 120 slots. Pattern ii has six consecutive RA slots with 112 channels each, every 60 slots. Pattern iii has three single slots with 224 channels, two slots apart. Pattern iv has three slots with 448 channels spread over a 120-slot period. All three give 11.2 ROs per slot, so the comparison isolates the time layout.</aside>
+</section>

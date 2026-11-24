@@ -1,0 +1,13 @@
+<section id="model">
+<p class="kicker">SYSTEM MODEL</p>
+<h2>One beam = multiframe, multichannel slotted ALOHA</h2>
+<div class="row">
+<div class="card fade-up" style="--i:0"><p class="num">1 · BURST</p><h3>M UEs ready at slot 1</h3><p class="ctxt">One-shot arrival, e.g. group paging of IoT devices.</p></div>
+<div class="card fade-up" style="--i:1"><p class="num">2 · RA SLOT</p><h3>Pick a slot</h3><p class="ctxt">Uniform over the rest of the current RA frame, else over the J slots of the next frame.</p></div>
+<div class="card fade-up" style="--i:2"><p class="num">3 · PREAMBLE</p><h3>Pick 1 of R channels</h3><p class="ctxt">Two UEs on the same slot and channel collide; otherwise success.</p></div>
+<div class="card fade-up" style="--i:3"><p class="num">4 · BACKOFF</p><h3>Retry or give up</h3><p class="ctxt">Uniform backoff 0–119 slots (W_BO = 120); at most N_PTmax = 5 transmissions.</p></div>
+</div>
+<p class="small">Time-slot Δ = 0.125/6 ms · error-free channel · metrics: P_S (success probability), mean access delay, CDFs G[u] and F[m]</p>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~1.5 min) The paper models one beam as a multiframe multichannel slotted ALOHA system. All M UEs become ready at slot 1. Each picks an RA slot by the paper's selection rule, then one of R preamble/RO channels. A collision happens only if two UEs share slot and channel. Collided UEs back off uniformly over 120 slots and retry, up to 5 transmissions. The channel is error-free, so collisions are the only failure.</aside>
+</section>

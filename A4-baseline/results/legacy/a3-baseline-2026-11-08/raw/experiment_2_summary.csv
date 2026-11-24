@@ -1,0 +1,6 @@
+one_way_delay_ms,runs,mean_access_delay_ms,mean_access_delay_ms_ci95,p95_access_delay_ms,p95_access_delay_ms_ci95,success_probability,success_probability_ci95
+4.0,30.0,10.0,0.0,10.0,0.0,1.0,0.0
+8.0,30.0,18.0,0.0,18.0,0.0,1.0,0.0
+12.0,30.0,26.0,0.0,26.0,0.0,1.0,0.0
+16.0,30.0,34.0,0.0,34.0,0.0,1.0,0.0
+20.0,30.0,42.0,0.0,42.0,0.0,1.0,0.0

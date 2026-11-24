@@ -1,0 +1,28 @@
+<section id="impl">
+<p class="kicker">IMPLEMENTATION</p>
+<h2>Two independent paths to the same curves</h2>
+<div class="row">
+<div class="card">
+<p class="num">src/beam-ra-sim.cc</p>
+<h3>ns-3 simulator (core module)</h3>
+<ul>
+<li>One event per RA slot: Simulator::Schedule at (slot − 1)·Δ, femtosecond time resolution</li>
+<li>Every UE is sampled; collisions use the exact per-slot, per-channel count</li>
+<li>Three RNG streams: slot choice, preamble choice, backoff</li>
+<li>9 self-tests: RA slot layout, slot selection, conservation, no success after I_max</li>
+</ul>
+</div>
+<div class="card">
+<p class="num">scripts/lin_cheng_analysis.py</p>
+<h3>Analytical model, eqs. (1)–(16)</h3>
+<ul>
+<li>Propagates expected numbers of UEs per slot and attempt</li>
+<li>Success probability e^(−M_i/R), the Poisson form of eq. (5)</li>
+<li>Gives the reference lines in every result plot</li>
+<li>tests/check_baseline.py compares the two automatically</li>
+</ul>
+</div>
+</div>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~1.5 min) I built two independent paths. Left: the ns-3 simulator, written on the core module. Each RA slot that carries transmissions is one scheduled event, every UE is sampled individually, and collisions are counted exactly. It has nine self-tests. Right: my re-implementation of the paper's analytical model, which tracks expected numbers of UEs and uses the Poisson success probability. If both agree with each other and with the published figure, the reproduction is solid.</aside>
+</section>

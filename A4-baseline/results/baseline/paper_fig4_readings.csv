@@ -1,0 +1,57 @@
+panel,pattern,x,y,note
+a,ii,1500,0.96,read by eye from published Fig. 4(a); +/-0.03
+a,ii,2000,0.80,read by eye from published Fig. 4(a); +/-0.02
+a,iii,1000,0.65,read by eye from published Fig. 4(a); +/-0.03
+a,iii,1500,0.40,read by eye from published Fig. 4(a); +/-0.03
+a,iii,2000,0.31,read by eye from published Fig. 4(a); +/-0.02
+a,iv,1500,0.79,read by eye from published Fig. 4(a); +/-0.03
+a,iv,2000,0.54,read by eye from published Fig. 4(a); +/-0.02
+b,ii,2000,4.7,read by eye from published Fig. 4(b); +/-0.2 ms
+b,iii,2000,5.0,read by eye from published Fig. 4(b); +/-0.2 ms
+b,iv,2000,5.3,read by eye from published Fig. 4(b); +/-0.2 ms
+c,ii,0,0.00,M=1000; read by eye from published Fig. 4(c); +/-0.02
+c,ii,1,0.22,
+c,ii,2,0.45,
+c,ii,3,0.68,
+c,ii,4,0.83,
+c,ii,5,0.83,
+c,ii,6,0.95,
+c,ii,7,0.99,
+c,ii,8,1.00,
+c,iii,0,0.00,
+c,iii,1,0.06,
+c,iii,2,0.22,
+c,iii,3,0.32,
+c,iii,4,0.46,
+c,iii,5,0.46,
+c,iii,6,0.58,
+c,iii,7,0.72,
+c,iii,8,0.85,
+c,iii,9,0.96,
+c,iii,10,0.96,
+c,iii,11,1.00,
+c,iv,0,0.00,
+c,iv,1,0.14,
+c,iv,2,0.31,
+c,iv,3,0.49,
+c,iv,4,0.65,
+c,iv,5,0.65,
+c,iv,6,0.81,
+c,iv,7,0.92,
+c,iv,8,0.98,
+c,iv,9,1.00,
+d,ii,1,0.22,M=1000; read by eye from published Fig. 4(d); +/-0.02
+d,ii,2,0.62,
+d,ii,3,0.88,
+d,ii,4,0.98,
+d,ii,5,1.00,
+d,iii,1,0.01,
+d,iii,2,0.24,
+d,iii,3,0.44,
+d,iii,4,0.67,
+d,iii,5,1.00,
+d,iv,1,0.11,
+d,iv,2,0.43,
+d,iv,3,0.71,
+d,iv,4,0.91,
+d,iv,5,1.00,

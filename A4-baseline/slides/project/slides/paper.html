@@ -1,0 +1,17 @@
+<section id="paper">
+<p class="kicker">BASELINE PAPER</p>
+<h2>How should a beam's RA occasions be laid out in time?</h2>
+<div class="row" style="flex:1; align-items:stretch">
+<div style="flex:3; display:flex; flex-direction:column; gap:24px">
+<p class="body">T.-A. Lin and R.-G. Cheng, "Analytical Modeling and Performance Evaluation of Beam-Based Random Access Protocol for 5G Beamforming Networks," <i>IEEE IoT-J</i>, vol. 10, no. 24, 2023.</p>
+<p class="body">In NR, <span class="mono">prach-ConfigurationIndex</span> and <span class="mono">msg1-FDM</span> decide which RA occasions (ROs) each SSB beam gets. The paper asks how this <b>beam mapping pattern</b> changes access when a burst of IoT devices wakes up at once.</p>
+</div>
+<div class="card" style="flex:2; justify-content:center">
+<p class="big">11.2</p>
+<p class="ctxt">ROs per time-slot in patterns (ii), (iii) and (iv) of Fig. 4. The total resource is the same; only the <b>arrangement in time</b> differs.</p>
+<p class="ctxt" style="color:var(--muted)">My final project changes how resources are arranged, so this figure is the right baseline.</p>
+</div>
+</div>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~1 min) The paper studies how the mapping of RACH occasions to one SSB beam affects random access under a burst arrival. I chose Fig. 4 because patterns ii, iii and iv all have the same 11.2 ROs per slot, so any difference between curves comes purely from the time arrangement. That is exactly the knob my final project will turn.</aside>
+</section>

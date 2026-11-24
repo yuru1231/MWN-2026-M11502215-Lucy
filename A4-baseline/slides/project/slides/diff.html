@@ -1,0 +1,14 @@
+<section id="diff">
+<p class="kicker">EXPLAINING THE DIFFERENCES</p>
+<h2>What is left, and why</h2>
+<table class="t">
+<tr><th style="width:27%">Source</th><th style="width:48%">Effect</th><th style="width:25%">Size</th></tr>
+<tr><td>Poisson approximation, eq. (5)</td><td>At M = 1 the analysis still predicts 1 − e^(−1/R) collisions (0.45% for (iii)); ns-3 correctly gives none</td><td>D_a ≤ 0.008 ms at M ≤ 10; |ΔP_S| ≤ 0.0002</td></tr>
+<tr><td>Reading the figure</td><td>"Paper" points are read by eye, not the authors' data</td><td>±0.02 prob., ±0.2 ms</td></tr>
+<tr><td>Number of runs</td><td>10^5 samples per point, as in the paper</td><td>CI ≤ 0.00012</td></tr>
+<tr><td>Text ambiguities</td><td>Four choices, settled by the published curves</td><td>Literal text would not match</td></tr>
+<tr><td>Unmodelled effects</td><td>Preamble detection, RAR window, Msg3/4, multiple beams</td><td>Same as the paper</td></tr>
+</table>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~2 min) The assignment asks to explain differences. The only systematic one I found is in the analysis, not the simulation: the Poisson success probability in equation 5 still predicts a small collision chance even with a single UE, so the analytical delay at M up to 10 is up to 8 microseconds too high. ns-3, which counts collisions exactly, gives exactly one slot of delay. It is invisible on the plot. Paper values have reading error, the sample count matches the paper, the ambiguities were settled against the figure, and the unmodelled MAC steps are left out in the paper too.</aside>
+</section>

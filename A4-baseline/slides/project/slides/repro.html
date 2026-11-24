@@ -1,0 +1,17 @@
+<section id="repro">
+<p class="kicker">REPRODUCIBILITY</p>
+<h2>Parameters, seeds and runs</h2>
+<table class="t">
+<tr><th style="width:32%">Item</th><th>This reproduction</th></tr>
+<tr><td>Patterns · M</td><td>(ii), (iii), (iv) · 21 values from 1 to 2000</td></tr>
+<tr><td>N_PTmax · W_BO</td><td>5 transmissions · 120 time-slots</td></tr>
+<tr><td>RNG</td><td>ns-3 MRG32k3a, RngSeed = 20261124, RngRun = 1 … 30</td></tr>
+<tr><td>Samples per point</td><td>30 runs × 3334 = 1.0 × 10^5 (paper: 10^5)</td></tr>
+<tr><td>Statistic</td><td>mean of 30 runs ± 95% CI (1.96·s/√30)</td></tr>
+<tr><td>Total work</td><td>1,890 ns-3 runs, 9 min 49 s on 8 vCPU</td></tr>
+<tr><td>Build</td><td>ns-3.43 optimized, g++ 11.4.0, Ubuntu 22.04</td></tr>
+</table>
+<p class="small">Raw CSVs, scripts and the exact command loop are in A4-baseline/ (study-note.md §6).</p>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~1 min) For repeatability: three patterns, 21 values of M, N_PTmax 5 and W_BO 120. Seed 20261124 with runs 1 to 30. Each run has 3334 one-shot samples, so every point has about ten to the five samples, the same as the paper. The full matrix is 1890 runs and took under ten minutes on an 8-core VM with ns-3.43.</aside>
+</section>

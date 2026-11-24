@@ -1,0 +1,6 @@
+ns3_version=3.43 (build profile: optimized)
+compiler=g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+os=Ubuntu 22.04 (VMware VM), nproc=8
+matrix=3 patterns x 21 M x 30 runs, samples=3334 per run, nptMax=5, wbo=120
+rng=RngSeed 20261124, RngRun 1..30
+wallclock=9m49.469s (user 25m50.437s, sys 0m32.232s), 3 patterns in parallel

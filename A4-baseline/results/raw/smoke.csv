@@ -1,0 +1,2 @@
+experiment_id,scenario,seed,run,ue_count,ra_resources,one_way_delay_ms,ro_period_ms,max_attempts,backoff_window_ms,simulation_duration_ms,attempted_ues,successful_ues,failed_ues,unfinished_ues,total_attempts,total_preamble_transmissions,collided_preamble_transmissions,success_probability,collision_probability,mean_access_delay_ms,p95_access_delay_ms,mean_attempts
+smoke,single_run,20261108,1,40,32,8.000000,20.000000,4,40.000000,10000.000000,40,40,0,0,75,75,35,1.000000,0.466667,56.000000,98.000000,1.875000

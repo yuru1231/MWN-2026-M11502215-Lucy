@@ -1,0 +1,13 @@
+<section id="choices">
+<p class="kicker">INTERPRETATION</p>
+<h2>Four places where the paper text is ambiguous</h2>
+<div class="grid2">
+<div class="card"><p class="num">1 · P_S DENOMINATOR</p><p class="ctxt">Eq. (13) as printed divides by all transmissions: 0.435 for (ii) at M = 1000, but the figure shows ≈ 1.0. Using successes / M gives 0.998.</p></div>
+<div class="card"><p class="num">2 · FIRST ATTEMPT</p><p class="ctxt">M_1[1] = M puts everyone in slot 1, so F[1] ≈ 0 for (ii); the figure shows 0.22. Spreading over the J = 6 slots of frame 1 gives e^(−1000/672) = 0.22.</p></div>
+<div class="card"><p class="num">3 · PATTERN (iv) START</p><p class="ctxt">The text derives frames starting with T1 but says (iv) starts with T2. Offsets {0, 4, 62} within T = 120 taken from Fig. 5(d).</p></div>
+<div class="card"><p class="num">4 · I_max FOR C = 1</p><p class="ctxt">T2 is undefined for a single frame per period, so eq. (1) uses T1 for both terms.</p></div>
+</div>
+<p class="small">Each choice was decided by matching the published curves; the literal readings of 1 and 2 do not match.</p>
+<div class="foot"><p class="ftxt">Lin &amp; Cheng (2023) Fig. 4 in ns-3 · M11502215 Lucy</p><div class="pg"></div></div>
+<aside>(~2 min) Reproducing a paper means resolving its ambiguities. Two of them matter. First, equation 13 as printed divides successes by total transmissions; that gives 0.435 where the figure shows almost 1, so the figure must use successes over M. Second, the text says all M UEs transmit in slot 1, which would make F[1] almost zero for pattern ii; the figure shows 0.22, which is exactly what you get if UEs spread over the six slots of the first frame. The other two are small: the pattern iv offsets and I_max for one frame per period.</aside>
+</section>
